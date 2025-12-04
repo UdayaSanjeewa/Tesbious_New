@@ -26,7 +26,7 @@ export default function Home() {
       <div className="flex justify-center">
         <button
           onClick={() => setIsFormOpen(true)}
-          className="fixed z-40 bottom-20 lg:bottom-50 text-[20px] font-medium bg-[#1E1F23] text-[#7B7C83] font-manrope w-[356px] h-[73px] lg:w-[356px] lg:h-[73px] 2xl:w-[400px] 2xl:[80px] rounded-[10px] flex items-center justify-around hover:text-white transition-all duration-1000"
+          className="fixed z-40 bottom-20  text-[20px] font-medium bg-[#1E1F23] text-[#7B7C83] font-manrope w-[356px] h-[73px] lg:w-[356px] lg:h-[73px] 2xl:w-[400px] 2xl:[80px] rounded-[10px] flex items-center justify-around hover:text-white transition-all duration-1000"
         >
           <span>Tell Us About Your Needs</span>
           <div className="w-[57px] h-[57px] rounded-[10px] bg-[#17171A] flex items-center justify-center">
