@@ -39,7 +39,7 @@ export default function Jobs() {
     <section ref={triggerRef} className="scroll-section-outer overflow-hidden">
       <div
         ref={sectionRef}
-        className="scroll-section-inner flex w-max gap-10 pl-[10%] lg:pl-20"
+        className="scroll-section-inner flex w-max gap-5 lg:gap-10 pl-[3%] lg:pl-20"
       >
         <div className="scroll-section">
           <Card src="/design.mp4" type="video" label="Design" />
