@@ -21,11 +21,11 @@ const OffersGrid: React.FC<OffersGridProps> = ({ items, sectionTitle }) => {
               className="flex items-center gap-2 h-[82px]  border-[#C3C3C3] border-b-2  font-manrope font-[400]"
             >
               {/* Numbering */}
-              <span className="text-[#929296] text-[36px] lg:text-[22px] xl:text-[30px] 2xl:text-[42px]">
+              <span className="text-[#929296] text-[36px] lg:text-[22px] xl:text-[30px] 2xl:text-[35px]">
                 {item.id.toString().padStart(2, "0")}.
               </span>
               {/* Text content */}
-              <p className="text-black text-[20px] lg:text-[22px] xl:text-[30px] 2xl:text-[42px]">
+              <p className="text-black text-[20px] lg:text-[22px] xl:text-[30px] 2xl:text-[35px]">
                 {item.text}
               </p>
             </div>

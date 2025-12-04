@@ -40,7 +40,7 @@ export default function Offers() {
   ];
   return (
     <div className="w-full flex flex-col items-center bg-white lg:pt-[50px]">
-      <div className="" ref={boxRef}>
+      <div className="w-[96%]" ref={boxRef}>
         <PhoneImg />
       </div>
       <div>
