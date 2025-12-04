@@ -51,7 +51,7 @@ const ContactForm: FC<ContactFormProps> = ({ onClose }) => {
     switch (step) {
       case 1:
         return (
-          <div className="w-[351px] lg:w-[718px] m-5 lg:mb-10 lg:mt-10 lg:ml-20">
+          <div className="w-[351px] lg:w-[718px] m-5 pl-5 lg:pl-0 lg:mb-10 lg:mt-10 lg:ml-20">
             <p className="w-[282px] lg:w-[451px] font-manrope text-[15px] lg:text-[24px] font-bold">
               Let's get started! Please share a few basic details with us so we
               can start the conversation.
