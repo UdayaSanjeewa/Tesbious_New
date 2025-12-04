@@ -8,7 +8,7 @@ export default function Box() {
         <div className="pt-[20px] lg:pt-[50px]">
           <TextBox />
         </div>
-        <div className="mb-[15px] lg:mb-[50px]">
+        <div className="mb-[15px] lg:mb-[50px] w-[100%]">
           <InfiniteScroller />
         </div>
       </div>

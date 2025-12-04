@@ -25,8 +25,8 @@ export default function InfiniteScroller() {
   );
 
   return (
-    <div className="w-screen flex justify-center">
-      <div className="w-[90%] overflow-hidden py-4">
+    <div className="w-full flex justify-center">
+      <div className="w-[96%] overflow-hidden py-4">
         <motion.div
           className="flex whitespace-nowrap"
           animate={{
