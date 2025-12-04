@@ -67,7 +67,7 @@ export default function TestimonialCard({
           </div>
         </div>
 
-        <div className="flex items-center ml-[30%]  w-[138px] h-[71px] gap-[6px] lg:pl-[9px] lg:pr-[9px] lg:pt-[7px] lg:pb-[7px] lg:mr-[7%] bg-[#1E1F23]">
+        <div className="flex items-center  w-[138px] h-[71px] gap-[6px] lg:pl-[9px] lg:pr-[9px] lg:pt-[7px] lg:pb-[7px] lg:mr-[7%] bg-[#1E1F23]">
           <button
             onClick={onPrev}
             className="w-[57px] h-[57px] rounded-md bg-[#17171A] border border-[#333] flex items-center justify-center"
