@@ -52,7 +52,7 @@ export default function Testemonial() {
 
   return (
     <div className="bg-[#141416] pb-[60px]">
-      <div className="h-screen flex flex-col justify-end lg:p-20 p-6">
+      <div className="h-[220px] lg:h-screen flex flex-col justify-end lg:p-20 p-6">
         <TestemonialHeading />
       </div>
       <div className="p-3 lg:p-10 h-screen flex flex-col justify-center">
