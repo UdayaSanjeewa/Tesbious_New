@@ -1,13 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import ContactForm from "@/components/contact/ContactForm";
-import Contact from "@/layouts/Contact";
-import Faq from "@/layouts/Faq";
-import Footer from "@/layouts/Footer";
-import Hero from "@/layouts/Hero";
-import Offers from "@/layouts/Offers";
-import Testemonial from "@/layouts/Testemonial";
+import ContactForm from "@/components/Home/contact/ContactForm";
+import Contact from "@/layouts/Home/Contact";
+import Faq from "@/layouts/Home/Faq";
+import Footer from "@/layouts/Home/Footer";
+import Hero from "@/layouts/Home/Hero";
+import Offers from "@/layouts/Home/Offers";
+import Testemonial from "@/layouts/Home/Testemonial";
 import { Menu } from "lucide-react";
 import useSmoothScroll from "@/hooks/useSmoothScroll";
 import SplashScreen from "@/components/SplashScreen";

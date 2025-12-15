@@ -1,5 +1,5 @@
-import SubTopicAnimator from "../SubTopicAnimator";
-import TopicAnimator from "../TopicAnimator";
+import SubTopicAnimator from "../../SubTopicAnimator";
+import TopicAnimator from "../../TopicAnimator";
 
 export default function TestemonialHeading() {
   return (

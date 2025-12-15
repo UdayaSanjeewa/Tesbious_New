@@ -3,9 +3,9 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-import OffersGrid from "@/components/offers/OffersGrid";
-import OffersTitle from "@/components/offers/OffersTitle";
-import PhoneImg from "@/components/offers/PhoneImg";
+import OffersGrid from "@/components/Home/offers/OffersGrid";
+import OffersTitle from "@/components/Home/offers/OffersTitle";
+import PhoneImg from "@/components/Home/offers/PhoneImg";
 
 gsap.registerPlugin(ScrollTrigger);
 

@@ -1,4 +1,4 @@
-import TopicAnimator from "../TopicAnimator";
+import TopicAnimator from "../../TopicAnimator";
 
 export default function OffersTitle() {
   return (
@@ -7,7 +7,8 @@ export default function OffersTitle() {
         <p>
           <TopicAnimator
             text="Trusted worldwide, we bring unparalleled expertise to every dimension
-          of your digital journey."/>
+          of your digital journey."
+          />
         </p>
       </div>
     </div>
