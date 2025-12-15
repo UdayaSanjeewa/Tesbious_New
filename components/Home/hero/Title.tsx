@@ -1,4 +1,4 @@
-import TopicAnimator from "../TopicAnimator";
+import TopicAnimator from "../../TopicAnimator";
 
 export default function Title() {
   return (

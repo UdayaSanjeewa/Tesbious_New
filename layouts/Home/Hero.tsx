@@ -1,7 +1,7 @@
-import Box from "@/components/hero/Box";
-import NavBar from "@/components/hero/NavBar";
-import Title from "@/components/hero/Title";
-import Jobs from "@/components/hero/Jobs";
+import Box from "@/components/Home/hero/Box";
+import NavBar from "@/components/NavBar";
+import Title from "@/components/Home/hero/Title";
+import Jobs from "@/components/Home/hero/Jobs";
 
 export default function Hero() {
   return (

@@ -50,7 +50,7 @@ export default function TestimonialCard({
         </p>
       </div>
 
-      <div className="flex justify-between pl-[7%] pr-[7%]">
+      <div className="flex justify-center lg:justify-between  pl-[7%] pr-[7%]">
         <div className="hidden lg:flex items-center gap-3">
           <div className="rounded-full overflow-hidden">
             <Image

@@ -1,4 +1,4 @@
-import { FaqAccordion } from "@/components/faq/FaqAccordion";
+import { FaqAccordion } from "@/components/Home/faq/FaqAccordion";
 import TopicAnimator from "@/components/TopicAnimator";
 
 const faqData = [

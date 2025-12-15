@@ -1,7 +1,7 @@
 "use client";
 
-import TestemonialHeading from "@/components/testemonial/TestemonialHeading";
-import TestimonialCard from "@/components/testemonial/TestimonialCard";
+import TestemonialHeading from "@/components/Home/testemonial/TestemonialHeading";
+import TestimonialCard from "@/components/Home/testemonial/TestimonialCard";
 import { useState } from "react";
 
 type Testimonial = {
