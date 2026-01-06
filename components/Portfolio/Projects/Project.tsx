@@ -38,7 +38,7 @@ export function Project({ project }: { project: ProjectDetails }) {
         </div>
 
         <div>
-          <div className="w-[350px] lg:w-[600px] text-[18px] mt-5 lg:mt-0 lg:text-[25px] font-[400] leading-8 text-justify">
+          <div className="w-[320px] lg:w-[600px] text-[18px] mt-5 lg:mt-0 lg:text-[25px] font-[400] leading-8 text-justify">
             <SubTopicAnimator text={project.intro} />
           </div>
           
@@ -90,8 +90,8 @@ export function Project({ project }: { project: ProjectDetails }) {
             <SubTopicAnimator text="Final Thoughts" />
           </div>
         </div>
-        <div className="w-[350px] lg:w-[600px] font-manrope text-justify ">
-          <div className="w-[350px] lg:w-[600px] text-[18px] mt-5 lg:mt-0 lg:text-[25px] font-[500] leading-8">
+        <div className="w-[320px] lg:w-[600px] font-manrope text-justify ">
+          <div className="w-[320px] lg:w-[600px] text-[18px] mt-5 lg:mt-0 lg:text-[25px] font-[500] leading-8">
             <SubTopicAnimator text={project.thoughtsTitle} />
           </div>
           <div className="mt-10 text-[18px] leading-6">
