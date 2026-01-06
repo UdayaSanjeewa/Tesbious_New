@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 interface ProjectItem {
   id: string;
@@ -13,7 +14,10 @@ interface ProjectCardProps {
 
 export default function ProjectCard({ project }: ProjectCardProps) {
   return (
-    <div className="flex flex-col gap-1 lg:gap-2 w-full group cursor-pointer">
+    <Link
+      href={`/portfolio/${project.id}`}
+      className="flex flex-col gap-1 lg:gap-2 w-full group cursor-pointer"
+    >
       <div className="flex items-center justify-between bg-white px-5 py-3 rounded-2xl shadow-sm border border-gray-100">
         <div className="flex items-baseline gap-1">
           <h3 className="text-lg font-manrope font-semibold text-black tracking-tight">
@@ -48,6 +52,6 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         />
         <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
       </div>
-    </div>
+    </Link>
   );
 }

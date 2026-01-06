@@ -9,40 +9,28 @@ interface ProjectItem {
 
 const projects: ProjectItem[] = [
   {
-    id: "1",
-    title: "Christina Marks.",
+    id: "hikka-villa",
+    title: "Hikka Villa.",
     year: "/2025",
-    imageUrl: "/webdev.png",
+    imageUrl: "/projects/hikkaVilla.jpg",
   },
   {
-    id: "2",
-    title: "Ceylon Sapphire.",
+    id: "core-forge",
+    title: "Core Forge",
     year: "/2025",
-    imageUrl: "/webdev.png",
+    imageUrl: "/projects/coreforge.jpg",
   },
   {
-    id: "3",
-    title: "Neon Horizon.",
+    id: "palm-sort",
+    title: "Palm Sort.",
     year: "/2024",
-    imageUrl: "/webdev.png",
-  },
-    {
-    id: "4",
-    title: "Christina Marks.",
-    year: "/2025",
-    imageUrl: "/webdev.png",
+    imageUrl: "/projects/palmsort.jpg",
   },
   {
-    id: "5",
-    title: "Ceylon Sapphire.",
+    id: "minvens",
+    title: "Minvens.",
     year: "/2025",
-    imageUrl: "/webdev.png",
-  },
-  {
-    id: "6",
-    title: "Neon Horizon.",
-    year: "/2024",
-    imageUrl: "/webdev.png",
+    imageUrl: "/projects/Minvens.jpg",
   },
 ];
 
