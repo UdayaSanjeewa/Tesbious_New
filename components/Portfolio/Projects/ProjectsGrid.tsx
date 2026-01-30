@@ -12,25 +12,25 @@ const projects: ProjectItem[] = [
     id: "hikka-villa",
     title: "Hikka Villa.",
     year: "/2025",
-    imageUrl: "/projects/hikkaVilla.jpg",
+    imageUrl: "/portfolioCard/hikkaVilla.jpg",
   },
   {
-    id: "core-forge",
-    title: "Core Forge",
+    id: "tesbious-core-forge",
+    title: "Tesbious Core Forge",
     year: "/2025",
-    imageUrl: "/projects/coreforge.jpg",
+    imageUrl: "/portfolioCard/coreforge.jpg",
   },
   {
-    id: "palm-sort",
+    id: "pasikudah-villa",
     title: "Palm Sort.",
     year: "/2024",
-    imageUrl: "/projects/palmsort.jpg",
+    imageUrl: "/portfolioCard/palmsort.jpg",
   },
   {
     id: "minvens",
-    title: "Minvens.",
+    title: "minvens.",
     year: "/2025",
-    imageUrl: "/projects/Minvens.jpg",
+    imageUrl: "/portfolioCard/minvens.jpg",
   },
 ];
 

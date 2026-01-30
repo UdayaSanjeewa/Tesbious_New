@@ -7,7 +7,15 @@ export interface ProjectDetails {
   images: string[];
   thoughtsTitle: string;
   thoughtsBody1: string;
-  thoughtsBody2: string;
+  meta: {
+    location: string;
+    industry: string;
+    services: string;
+    timeline: string;
+  };
+  challenge: string;
+  solution: string;
+  highlights: string[];
 }
 
 export const projects: ProjectDetails[] = [
@@ -16,55 +24,128 @@ export const projects: ProjectDetails[] = [
     title: "Hikka Villa.",
     year: "/2025",
     intro:
-      "A luxury hospitality platform designed to showcase serene coastal living. I focused on creating a seamless booking experience combined with high-performance visual storytelling.",
+      "Hikka Villa is a luxury villa chain based in Hikkaduwa, Sri Lanka. The project focused on translating serene coastal living into a fast, intuitive digital experience that supports seamless bookings.",
+    meta: {
+      location: "Hikkaduwa, Sri Lanka",
+      industry: "Luxury Hospitality",
+      services: "Design and Development",
+      timeline: "3 Weeks",
+    },
+    challenge:
+      "Create a calm, high-end experience that stands out in a competitive hospitality market while maintaining speed, clarity, and ease of use across devices.",
+    solution:
+      "A clean, image-led website was designed to highlight the natural setting of the villas. The site structure was built as a focused sales funnel, guiding users from exploration to booking without distraction.",
+    highlights: [
+      "Luxury-focused visual storytelling",
+      "Responsive, performance-driven layout",
+      "Clear booking journey",
+    ],
     liveUrl: "https://hikkavilla.com",
-    images: ["/projects/test.jpeg", "/projects/hikka.png"],
-    thoughtsTitle: "This project redefined how I view digital hospitality.",
+    images: [
+      "/projectImages/devices/hikkaVilla.png",
+      "/projectImages/withName/hikka.png",
+      "/projectImages/sub/hikka.webp",
+    ],
+    thoughtsTitle: "Digital hospitality.",
     thoughtsBody1:
-      "The challenge was balancing high-resolution imagery with fast load times. I implemented advanced image optimization techniques to ensure the 'premium' feel wasn't lost to lag.",
-    thoughtsBody2:
-      "By merging technical precision with intuitive design, I built an experience that doesn't just function—it invites the user to relax.",
+      "The result is a refined hospitality platform that balances atmosphere and function, delivering a smooth user experience while maximizing conversions.",
   },
   {
-    id: "core-forge",
-    title: "Core Forge.",
+    id: "pasikudah-villa",
+    title: "Pasikudah Villa.",
     year: "/2025",
     intro:
-      "An industrial-grade dashboard for managing manufacturing workflows. Built for speed and reliability, Core Forge handles complex data visualization in real-time.",
-    liveUrl: "https://coreforge.io",
-    images: ["/projects/test.jpeg", "/projects/hikka.png"],
-    thoughtsTitle: "Efficiency is the ultimate form of sophistication.",
+      "This project involved designing a website for a private villa in Pasikudah, Sri Lanka. The goal was to present the property clearly and attractively, allowing visitors to understand the space, atmosphere, and quality of the villa at a glance.",
+    meta: {
+      location: "Pasikudah, Sri Lanka",
+      industry: "Hospitality",
+      services: "Design and Development",
+      timeline: "2 Weeks",
+    },
+    challenge:
+      "The client did not want direct bookings through the website. The challenge was to showcase the full villa experience while still guiding visitors toward meaningful inquiries without relying on traditional booking systems.",
+    solution:
+      "A gallery-driven layout was created to highlight the villa’s interiors, surroundings, and amenities. The site structure was planned as a subtle sales funnel, using visual hierarchy and content flow to build interest and encourage direct contact.",
+    highlights: [
+      "Gallery-focused visual presentation",
+      "Clean and distraction-free layout",
+      "Performance-optimized images",
+      "Inquiry-driven conversion flow",
+    ],
+    liveUrl: "https://pasikudahpalmsort.com/",
+    images: [
+      "/projectImages/devices/palmSort.png",
+      "/projectImages/withName/palmSort.png",
+      "/projectImages/sub/palmSort.webp",
+    ],
+    thoughtsTitle: "The Architecture of Invitation.",
     thoughtsBody1:
-      "I utilized React Query and WebSockets to ensure that data remains consistent without manual refreshes, allowing floor managers to make split-second decisions.",
-    thoughtsBody2:
-      "The UI is intentionally minimal to reduce cognitive load, keeping the focus entirely on the metrics that matter most.",
-  },
-  {
-    id: "palm-sort",
-    title: "Palm Sort.",
-    year: "/2024",
-    intro:
-      "An AI-driven inventory management system tailored for agricultural exports. It uses machine learning to predict stock depletion and suggest optimal sorting patterns.",
-    liveUrl: "https://palmsort.app",
-    images: ["/projects/test.jpeg", "/projects/hikka.png"],
-    thoughtsTitle: "Bridging the gap between nature and technology.",
-    thoughtsBody1:
-      "Integrating ML models into a web interface required careful state management to ensure the user wasn't waiting on heavy processing.",
-    thoughtsBody2:
-      "It reflects my belief that even traditional industries can be revolutionized through clean, purposeful code.",
+      "This project shows how a website can convert without direct bookings. By focusing on visual storytelling and thoughtful structure, the site successfully turns interest into action while keeping the experience calm and uncomplicated.",
   },
   {
     id: "minvens",
-    title: "Minvens.",
+    title: "minvens Finance.",
     year: "/2025",
     intro:
-      "A minimalist event management tool that strips away the noise. Minvens allows creators to launch ticketed events in under sixty seconds.",
-    liveUrl: "https://minvens.com",
-    images: ["/projects/test.jpeg", "/projects/hikka.png"],
-    thoughtsTitle: "Speed and simplicity are the core pillars here.",
+      "Minvense Finance is a Sri Lankan micro credit firm offering accessible financial services to a broad customer base. The purpose of this project was to present the company’s services clearly while creating a website that actively supports lead generation and conversions.",
+    meta: {
+      location: "Sri Lanka",
+      industry: "Finance",
+      services: "Design and Development",
+      timeline: "3 Weeks",
+    },
+    challenge:
+      "The website needed to explain financial services in a clear and reassuring way while encouraging users to take action. Since the target audience included many users over the age of thirty, usability, readability, and navigation clarity were critical.",
+    solution:
+      "A user-friendly interface was designed with strong attention to UX and UI fundamentals. Content was structured to guide visitors through the services step by step, forming a clear sales funnel that leads naturally to inquiries and lead submissions.",
+    highlights: [
+      "Conversion-focused sales funnel",
+      "Lead capture and inquiry flows",
+      "Clear service presentation",
+      "User-friendly design for mature audiences",
+      "Clean and accessible interface",
+    ],
+    liveUrl: "https://minvens.com/",
+    images: [
+      "/projectImages/devices/minVens.png",
+      "/projectImages/withName/minVens.png",
+      "/projectImages/sub/minVens.webp",
+    ],
+    thoughtsTitle: "The Currency of Clarity.",
     thoughtsBody1:
-      "I leveraged Next.js Server Components to make the landing pages incredibly fast, which is critical for conversion rates during high-traffic ticket drops.",
-    thoughtsBody2:
-      "The final product is a testament to the idea that sometimes, less truly is more.",
+      "This project demonstrates how thoughtful UX and structured design can drive results in the financial sector. The final website balances clarity and trust while effectively turning visitors into qualified leads.",
+  },
+  {
+    id: "tesbious-core-forge",
+    title: "Tesbious Core Forge",
+    year: "/2025",
+    intro:
+      "Tesbious Core Forge is an IT services platform that provides outsourced software developers to overseas companies at a flat rate. The service connects international businesses with skilled IT professionals based in Sri Lanka.",
+    meta: {
+      location: "Sri Lanka",
+      industry: "IT Services",
+      services: "Design and Development",
+      timeline: "4 Weeks",
+    },
+    challenge:
+      "The challenge was to present a technical service to an international audience in a way that felt clear, reliable, and easy to understand. The website needed to support lead generation and service purchases while remaining simple and accessible for decision-makers in overseas IT companies.",
+    solution:
+      "A structured, conversion-focused website was designed with strong attention to UX and UI principles. The content flow was planned as a complete sales funnel, guiding visitors through the service offering, building confidence, and leading them toward inquiries and purchases. ",
+    highlights: [
+      "Conversion-driven sales funnel",
+      "Lead capture and service purchase flows",
+      "Clear service positioning",
+      "UX-focused design for B2B audiences",
+      "Clean and professional interface",
+    ],
+    liveUrl: "/",
+    images: [
+      "/projectImages/devices/coreForge.png",
+      "/projectImages/withName/coreForge.png",
+      "/projectImages/sub/coreForge.webp",
+    ],
+    thoughtsTitle: "Architecting Global Trust",
+    thoughtsBody1:
+      "This project highlights how thoughtful UX and strategic structure can support global IT services. The final website delivers clarity, builds trust, and effectively converts international visitors into clients.",
   },
 ];
