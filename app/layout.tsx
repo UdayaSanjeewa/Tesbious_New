@@ -15,7 +15,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Tesbious Global Soultions",
+  title: "Tesbious Global Solutions",
   description:
     "Tesbious Global Solutions offers E-commerce solutions, graphic design, web development, digital marketing, and AI automation services. The company helps businesses strengthen their online presence and build reliable systems that support long-term growth.",
 };
